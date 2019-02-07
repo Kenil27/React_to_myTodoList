@@ -1,9 +1,24 @@
 .App {
-  text-align: center;
+  text-align: center; 
+}
+ul{
+  
+  display: flex;
+  background-color: #dddfe08c;
+  margin: 0 auto;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  width: 15%;
+  padding: 10px;
+  font-size: 18px
 }
 #target{
-  width: 8%;
-  height: 10%;
+  width: 10%;
+  height: 12%;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
